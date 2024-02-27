@@ -1,0 +1,40 @@
+"question": "What is the course title for CSCI 3700 and SENG 3700?",
+"answer": "The course title is 'Database Management System'."
+"question": "How many credit hours does the course offer, and what are the contact hours?",
+"answer": "The course offers 3 credit hours and has 3 contact hours."
+"question": "What is the term for this course?",
+"answer": "The term for this course is Fall 2023."
+"question": "What are the prerequisites for this course?",
+"answer": "The prerequisites for this course are CSCI 2540 - Data Abstraction and Object-Oriented Data Structures."
+"question": "Are there any co-requisites for this course?",
+"answer": "There are no co-requisites for this course."
+"question": "Where and when does CSCI 3700 Section 1 take place?",
+"answer": "CSCI 3700 Section 1 takes place at Howell Science Complex 0N106 every T/TH 9:30 - 10:45 am."
+"question": "Where and when do CSCI 3700 Section 2 and SENG 3700 take place?",
+"answer": "CSCI 3700 Section 2 and SENG 3700 take place at Rivers Building 00226 every T/TH 12:30 - 01:45 pm."
+"question": "When is the Midterm Period for this course?",
+"answer": "The Midterm Period is TBD."
+"question": "When is the Final Exam Period, and where can you find the official schedule?",
+"answer": "The Final Exam Period is available on the ECU official calendar and will be posted on Canvas."
+"question": "Who is the instructor for this course, and what are the instructor's office hours?",
+"answer": "The instructor is Rui Wu. Office hours are Mon/Wed: 10:30 am-12:30 pm; Fri: 10:30 am-11:30 pm (by appointment)."
+"question": "What is the email address of the instructor, and is there a course website?",
+"answer": "The email address is wur18@ecu.edu, and the course website is http://www.cs.ecu.edu/wu/."
+"question": "What is the course summary, and what topics are covered?",
+"answer": "The course focuses on relational database systems theory and development. Topics include the relational data model, integrity constraints specification, data modeling, relational schema design, normalization, relational algebra, SQL, and database programming."
+"question": "What textbook is recommended for this course, and are there any additional materials?",
+"answer": "The recommended textbook is 'Database System Concepts (7th Edition)' by Abraham Silberschatz, Henry F. Korth, and S. Sudarshan. Additional materials may be shared on Canvas."
+"question": "How is the grading policy structured for undergraduate students?",
+"answer": "Assignments contribute 33.3%, Midterm Exam 33.3%, and Final Exam 33.3%. Grading scale: A=94-100, A-=90-93, B+=87-89, B=83-86, B-=80-82, C+=77-79, C=73-76, C-=70-72, D+=67-69, D=63-66, D-=60-62, F=59 or below."
+"question": "What is the absence policy for face-to-face classes, and how is it linked to points?",
+"answer": "Students should expect and plan to attend classes. Missing N classes without reason results in 2^N points off the midterm. Emergencies should be communicated."
+"question": "What is the policy on late work, and how should assignments be submitted?",
+"answer": "Late work is not accepted. All assignments must be submitted on time. It is the student's responsibility to verify due dates and times on the course website."
+"question": "What is the university's policy on plagiarism?",
+"answer": "Students are expected to abide by the university's Student Honor Code. Outright copying is plagiarism and is unacceptable."
+"question": "What sources can be used for obtaining information in the event of a weather emergency?",
+"answer": "In the event of a weather emergency, information about ECU can be obtained through the ECU Emergency Notices (http://www.ecu.edu/alert) and ECU Emergency Information Hotline (252-328-0062)."
+"question": "How should students with disabilities request accommodations?",
+"answer": "Students with disabilities should go to the Department for Disability Support Services, located in Slay 138, to verify the disability before any accommodations can occur. The telephone number is 252-737-1016."
+"question": "What are the details and due dates for assignments listed in the course summary?",
+"answer": "Refer to the course summary for specific details and due dates for each assignment, including Assignment Homework 0 (Part 1), Assignment HW0 Part 2, Assignment HW0 Part 3, Assignment HW1, Assignment HW2, Assignment HW3, Assignment HW4, and Assignment HW5. Additionally, there are quizzes for the Final Exam, Midterm Exam, Test Exam, and an extra credit assignment."
