@@ -1,0 +1,590 @@
+[
+    {
+        "question": "What is a database?",
+        "answer": "A database is a structured collection of data stored electronically. It allows for efficient retrieval, insertion, and updating of data and can be managed using a database management system (DBMS)."
+    },
+    {
+        "question": "Why are databases needed or useful?",
+        "answer": "Databases are essential for handling large amounts of data systematically. They provide quick data retrieval, efficient storage, data integrity, and the ability to handle multiple users and complex transactions."
+    },
+    {
+        "question": "What are some database examples?",
+        "answer": "Examples of databases include MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server, and MongoDB."
+    },
+    {
+        "question": "Where is a database used and what is it used for?",
+        "answer": "Databases are used in various applications like e-commerce sites, banking systems, telecommunication networks, and social networks. They are used for storing, retrieving, and managing data efficiently."
+    },
+    {
+        "question": "Why not access data from files?",
+        "answer": "Unlike file-based systems, databases allow for more efficient data retrieval, better data integrity, concurrent access by multiple users, and more complex queries. Databases also provide better security features."
+    },
+    {
+        "question": "What is the view of the data?",
+        "answer": "A view in a database is a virtual table representing the result of a query. It doesn’t store data physically but shows data from one or more tables in a specific way."
+    },
+    {
+        "question": "What are some data models?",
+        "answer": "Common data models include the relational model, object-oriented model, hierarchical model, network model, and entity-relationship model."
+    },
+    {
+        "question": "What are Relational models (used by SQL DB)?",
+        "answer": "Relational models represent data in tables (relations), consisting of rows and columns. Each row represents a record, and each column represents an attribute. SQL databases typically use this model."
+    },
+    {
+        "question": "What is an Entity-Relationship data model (mainly for database design)?",
+        "answer": "An Entity-Relationship (ER) model is a conceptual representation of data that defines entities, their attributes, and relationships among entities. It's used mainly for database design."
+    },
+    {
+        "question": "What are Semi-structured data models (JSON)?",
+        "answer": "Semi-structured data models do not have a strict schema, allowing for more flexibility. JSON is an example where data is organized in key-value pairs but not in rigid tables."
+    },
+    {
+        "question": "What is a Network model?",
+        "answer": "The network model organizes data using a graph, where records are nodes and relationships are arcs. This allows for more complex relationships than the hierarchical model."
+    },
+    {
+        "question": "What is a Hierarchical model?",
+        "answer": "The hierarchical model organizes data in a tree-like structure, where each record has a single parent. It’s suitable for representing data with a clear hierarchy."
+    },
+    {
+        "question": "What are the levels of abstraction?",
+        "answer": "The levels of abstraction in a database are the physical level (how data is stored), logical level (data structure), and view level (user interaction with data)."
+    },
+    {
+        "question": "What is a schema?",
+        "answer": "A schema in a database is the structure that defines the organization of data, including tables, fields, relationships, indexes, and constraints."
+    },
+    {
+        "question": "What is a logical schema?",
+        "answer": "A logical schema represents the database's structure at the logical level, defining tables, columns, data types, and relationships without considering how the data is stored physically."
+    },
+    {
+        "question": "What is a physical schema?",
+        "answer": "A physical schema deals with the physical storage of data, including how data is stored on disk, indexing strategy, and the physical configuration of data."
+    },
+    {
+        "question": "What is DDL (Data Definition Language)?",
+        "answer": "DDL (Data Definition Language) consists of SQL commands used to define the database structure, such as CREATE, ALTER, and DROP, for creating, modifying, and deleting database objects."
+    },
+    {
+        "question": "What is DML (Data manipulation language)?",
+        "answer": "DML (Data Manipulation Language) consists of SQL commands used for managing data within database objects, like INSERT, UPDATE, DELETE, and SELECT."
+    },
+    {
+        "question": "What is SQL?",
+        "answer": "SQL (Structured Query Language) is a standardized programming language used to manage relational databases and perform various operations like querying, updating, and managing data."
+    },
+    {
+        "question": "Database Design",
+        "answer": "Database design involves defining the database structure, including tables, columns, relationships, and constraints, to accurately and efficiently represent data."
+    },
+    {
+        "question": "Database architecture",
+        "answer": "Database architecture refers to the design and structure of the database system, including how data is stored, accessed, and managed, and can include aspects like client-server models, distributed databases, and storage architectures."
+    },
+    {
+        "question": "Database Application",
+        "answer": "A database application is a software program that interacts with a database to perform data entry, updates, queries, and reports. It allows users to manipulate and analyze the data stored in a database."
+    },
+    {
+        "question": "Database Architecture tiers",
+        "answer": "Database architecture tiers refer to the layers in a database environment, commonly including the database tier (where data is stored), application tier (business logic), and presentation tier (user interface)."
+    },
+    {
+        "question": "Relational Algebra",
+        "answer": "Relational algebra is a set of operations used in relational databases to manipulate and retrieve data. It includes operations like select, project, join, set union, set difference, and Cartesian product."
+    },
+    {
+        "question": "Relation Schema and Instance",
+        "answer": "A relation schema defines the structure of a relation, including its name and attributes. A relation instance is a specific set of tuples in the database at a particular moment."
+    },
+    {
+        "question": "Keys",
+        "answer": "Keys in a database are attributes used to uniquely identify rows in a table. Primary keys uniquely identify each record, while foreign keys are used to establish relationships between tables."
+    },
+    {
+        "question": "Select Operation",
+        "answer": "The SELECT operation in SQL is used to retrieve specific data from a database. It can be combined with various clauses to filter and sort the data."
+    },
+    {
+        "question": "Project Operation",
+        "answer": "In relational algebra, the PROJECT operation is used to select certain columns from a table, essentially creating a new table with only the specified attributes."
+    },
+    {
+        "question": "Composition of Relational Operations",
+        "answer": "Composition of relational operations refers to combining multiple relational algebra operations to perform complex queries in a database."
+    },
+    {
+        "question": "Cartesian-Product Operation",
+        "answer": "The Cartesian Product operation combines every row of one table with every row of another table, used primarily in conjunction with other operations like JOIN."
+    },
+    {
+        "question": "Join Operation",
+        "answer": "The JOIN operation in a database combines rows from two or more tables based on a related column between them."
+    },
+    {
+        "question": "Union Operation",
+        "answer": "The UNION operation in SQL combines the result sets of two or more SELECT statements into a single result set, removing duplicate rows."
+    },
+    {
+        "question": "Set-Intersection Operation",
+        "answer": "The SET-INTERSECTION operation produces a result set containing only the rows that are present in both of the select statements."
+    },
+    {
+        "question": "Set Difference Operation",
+        "answer": "The SET DIFFERENCE operation in SQL returns the rows that are present in the first SELECT statement but not in the second."
+    },
+    {
+        "question": "The Assignment Operation",
+        "answer": "The assignment operation in databases is used to assign the results of a query or operation to a variable or temporary table for further use."
+    },
+    {
+        "question": "The Rename Operation",
+        "answer": "The RENAME operation in SQL is used to change the name of a database object, like a table or column, to a new name."
+    },
+    {
+        "question": "Equivalent Queries",
+        "answer": "Equivalent queries in a database are different queries that yield the same result. They are often used to optimize query performance."
+    },
+    {
+        "question": "Data Definition Language",
+        "answer": "Data Definition Language (DDL) in SQL includes commands like CREATE, ALTER, and DROP, used to define and modify the structure of database objects like tables, indexes, and views."
+    },
+    {
+        "question": "Domain Types in SQL",
+        "answer": "Domain types in SQL refer to the data types that can be used for table columns, such as INTEGER, VARCHAR, DATE, and BOOLEAN."
+    },
+    {
+        "question": "Create Table Construct",
+        "answer": "The CREATE TABLE construct in SQL is used to create a new table in the database, specifying its columns and data types."
+    }
+    {
+        "question": "Integrity Constraints in Create Table",
+        "answer": "Integrity constraints in CREATE TABLE define rules that the data in the table must follow, such as PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK constraints."
+    },
+    {
+        "question": "Updates to tables",
+        "answer": "Updating tables in a database involves modifying existing data. This is typically done using the UPDATE statement in SQL, where you can set new values for existing records."
+    },
+    {
+        "question": "Basic Query Structure",
+        "answer": "The basic query structure in SQL typically consists of SELECT, FROM, and WHERE clauses, used to specify what data to retrieve, from which tables, and under what conditions."
+    },
+    {
+        "question": "The select Clause",
+        "answer": "The SELECT clause in SQL specifies the columns to be retrieved from the database tables."
+    },
+    {
+        "question": "The where Clause",
+        "answer": "The WHERE clause in SQL is used to filter records based on specified conditions, determining which rows from the tables should be included in the result set."
+    },
+    {
+        "question": "The from Clause",
+        "answer": "The FROM clause in SQL specifies the tables from which to retrieve data."
+    },
+    {
+        "question": "Where Clause Predicates",
+        "answer": "WHERE clause predicates in SQL are conditions used in the WHERE clause to filter records, such as comparisons (like '=', '<', '>') and logical operators (like 'AND', 'OR')."
+    },
+    {
+        "question": "String Operations",
+        "answer": "String operations in SQL involve manipulating and comparing character strings, often using functions like CONCAT, SUBSTRING, and TRIM."
+    },
+    {
+        "question": "Ordering the Display of Tuples",
+        "answer": "Ordering the display of tuples in SQL is done using the ORDER BY clause, which sorts the result set based on one or more columns."
+    },
+    {
+        "question": "Set Operations",
+        "answer": "Set operations in SQL, like UNION, INTERSECT, and EXCEPT, are used to combine the results of two or more SELECT statements."
+    },
+    {
+        "question": "Null Values",
+        "answer": "Null values in a database represent missing or unknown data. In SQL, NULL is used to denote these values, and special handling is often required since NULL is not equal to any value, including itself."
+    },
+    {
+        "question": "Aggregate Functions",
+        "answer": "Aggregate functions in SQL, like COUNT, SUM, AVG, MAX, and MIN, perform a calculation on a set of values and return a single value."
+    },
+    {
+        "question": "Aggregate Functions – Group By",
+        "answer": "The GROUP BY clause in SQL is used with aggregate functions to group rows that have the same values in specified columns into summary rows."
+    },
+    {
+        "question": "Aggregate Functions – Having Clause",
+        "answer": "The HAVING clause in SQL is used with GROUP BY to filter groups based on a specified condition, typically involving an aggregate function."
+    },
+    {
+        "question": "Nested Subqueries",
+        "answer": "Nested subqueries in SQL are queries within queries. They allow complex operations and are used in various clauses like SELECT, FROM, and WHERE."
+    },
+    {
+        "question": "Set Membership",
+        "answer": "Set membership in SQL is checked using operators like IN, which determines if a value belongs to a specified set of values."
+    },
+    {
+        "question": "Subqueries in the From Clause",
+        "answer": "Subqueries in the FROM clause in SQL act as temporary tables that can be used in the main SELECT statement, allowing for complex joins and data organization."
+    },
+    {
+        "question": "Scalar Subquery",
+        "answer": "A scalar subquery in SQL is a subquery that returns exactly one column and one row. It can be used wherever a single value is valid."
+    },
+    {
+        "question": "Deletion",
+        "answer": "Deletion in SQL is performed using the DELETE statement, which removes rows from a table based on a specified condition."
+    },
+    {
+        "question": "Insertion",
+        "answer": "Insertion in SQL is done using the INSERT statement, which adds new rows to a table."
+    },
+    {
+        "question": "Updates",
+        "answer": "Updates in SQL involve modifying existing data in a table, typically done using the UPDATE statement with a WHERE clause to specify which rows should be updated."
+    },
+    {
+        "question": "Case Statement for Conditional Updates",
+        "answer": "The CASE statement in SQL is used for conditional operations, allowing different actions to be performed based on specific conditions, often within UPDATE statements."
+    },
+    {
+        "question": "Joined Relations",
+        "answer": "Joined relations in SQL involve combining rows from two or more tables based on a related column, using JOIN clauses like INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN."
+    },
+    {
+        "question": "Natural Join in SQL",
+        "answer": "A NATURAL JOIN in SQL automatically joins tables based on columns with the same names and compatible data types in both tables."
+    },
+    {
+        "question": "Inner Join and Using",
+        "answer": "An INNER JOIN in SQL returns rows when there is at least one match in both tables. The USING clause is used with JOIN to specify the column(s) to join on when column names are the same in both tables."
+    },
+    {
+        "question": "Outer Join",
+        "answer": "An OUTER JOIN in SQL returns all rows from one table and the matched rows from the other table. If no match is found, NULL values are returned for columns of the table without a match."
+    },
+    {
+        "question": "Left Join",
+        "answer": "A LEFT JOIN in SQL returns all rows from the left table and the matched rows from the right table. If there is no match, NULL values are returned for columns of the right table."
+    },
+    {
+        "question": "Right Join",
+        "answer": "A RIGHT JOIN in SQL returns all rows from the right table and the matched rows from the left table. If there is no match, NULL values are returned for columns of the left table."
+    },
+    {
+        "question": "Full Outer Join",
+        "answer": "A FULL OUTER JOIN in SQL returns all rows when there is a match in either the left or right table. Rows that do not have a match in the other table are filled with NULL values."
+    },
+    {
+        "question": "Set Comparison",
+        "answer": "Set comparison in SQL involves comparing a value to a set of values using operators like IN, ANY, ALL, and EXISTS."
+    },
+    {
+        "question": "“any” Clause",
+        "answer": "The ANY clause in SQL is used with a WHERE or HAVING clause and returns true if any of the subquery values meet the condition."
+    },
+    {
+        "question": "Set Comparison – “all” Clause",
+        "answer": "The ALL clause in SQL is used in a WHERE or HAVING clause and returns true if all of the subquery values meet the condition."
+    },
+    {
+        "question": "Use of “exists” Clause",
+        "answer": "The EXISTS clause in SQL is used to test for the existence of any record in a subquery. It returns true if the subquery returns one or more records."
+    },
+    {
+        "question": "Use of “not exists” Clause",
+        "answer": "The NOT EXISTS clause in SQL is used similarly to EXISTS, but it returns true if the subquery does not return any records."
+    },
+    {
+        "question": "Update of a View",
+        "answer": "Updating a view in SQL involves modifying the data of a view, which in turn updates the underlying tables. This is subject to certain constraints, as views are virtual tables."
+    }
+    {
+        "question": "Transactions",
+        "answer": "Transactions in a database are a sequence of operations performed as a single logical unit of work. A transaction must be atomic, consistent, isolated, and durable (ACID properties)."
+    },
+    {
+        "question": "atomic, consistent, isolated, and durable",
+        "answer": "Atomicity ensures that all operations within a transaction are completed or none are. Consistency ensures the database remains in a consistent state before and after the transaction. Isolation ensures transactions are executed in isolation from each other. Durability ensures that once a transaction is committed, it remains so, even in the event of system failures."
+    },
+    {
+        "question": "Demo Transactions",
+        "answer": "Demo transactions are example transactions used for demonstration or testing purposes, showing how database transactions work, including their ACID properties."
+    },
+    {
+        "question": "Flask",
+        "answer": "Flask in the context of databases often refers to using the Flask web framework (a Python framework) to build web applications that interact with databases."
+    },
+    {
+        "question": "PostgreSQL",
+        "answer": "PostgreSQL is an open-source object-relational database management system known for its robustness, scalability, and support for advanced data types and SQL standards."
+    },
+    {
+        "question": "Integrity Constraints",
+        "answer": "Integrity constraints in a database ensure the accuracy and consistency of the data. Examples include primary keys, foreign keys, unique constraints, and check constraints."
+    },
+    {
+        "question": "Constraints on a Single Relation",
+        "answer": "Constraints on a single relation (or table) in a database enforce rules on the data within that table, like primary keys (uniqueness and non-null), check constraints (conditional rules), and unique constraints (uniqueness for a set of columns)."
+    },
+    {
+        "question": "The check clause",
+        "answer": "The CHECK clause in SQL is used to limit the value range that can be placed in a column. It ensures that all values in a column satisfy a specific condition."
+    },
+    {
+        "question": "Referential Integrity",
+        "answer": "Referential integrity in a database ensures that relationships between tables remain consistent. For example, foreign keys in one table must correspond to primary keys in another."
+    },
+    {
+        "question": "Foreign Key",
+        "answer": "A foreign key is a set of one or more columns in a database table that refers to the primary key in another table. It’s used to ensure referential integrity."
+    },
+    {
+        "question": "Commonly Used PostgreSQL Data Types",
+        "answer": "Commonly used PostgreSQL data types include INTEGER, VARCHAR, TEXT, BOOLEAN, DATE, TIMESTAMP, and ARRAY."
+    },
+    {
+        "question": "Primary Keys",
+        "answer": "Primary keys in a database are unique identifiers for each record in a table. They ensure that each record can be uniquely identified."
+    },
+    {
+        "question": "Design Phases",
+        "answer": "Design phases in database development typically include requirements analysis, conceptual design, logical design, schema refinement, physical design, and application and security design."
+    },
+    {
+        "question": "Design Alternatives",
+        "answer": "Design alternatives in database design refer to different ways to structure and organize data, considering factors like normalization, denormalization, indexing, and partitioning."
+    },
+    {
+        "question": "ER model -- Database Modeling",
+        "answer": "The Entity-Relationship (ER) model is a conceptual tool used in database modeling to describe the data and the relationships between data entities in an abstract way."
+    },
+    {
+        "question": "Entity Sets",
+        "answer": "Entity sets in the ER model represent a group of similar entities, such as customers, products, or orders, and are used to model real-world entities in a database."
+    },
+    {
+        "question": "Relationship Sets",
+        "answer": "Relationship sets in the ER model represent associations between two or more entity sets. These relationships can have attributes and vary in degree (binary, ternary, etc.)."
+    },
+    {
+        "question": "Representing Relationship Sets via ER Diagrams",
+        "answer": "ER diagrams represent relationship sets by connecting entity sets with lines, showing how entities are related. Attributes of relationships are also shown."
+    },
+    {
+        "question": "Roles",
+        "answer": "Roles in ER diagrams clarify the meaning of relationships by assigning roles to the entities in a relationship, especially in recursive relationships."
+    },
+    {
+        "question": "Non-binary Relationship Sets",
+        "answer": "Non-binary relationship sets in the ER model involve more than two entity sets. An example is a ternary relationship involving three entities."
+    },
+    {
+        "question": "Complex Attributes",
+        "answer": "Complex attributes in the ER model are attributes that have nested attributes, representing a hierarchy of attributes. Examples include composite and multi-valued attributes."
+    },
+    {
+        "question": "Composite Attributes",
+        "answer": "Composite attributes in the ER model can be divided into smaller parts, which are also attributes, like an address attribute that includes street, city, and zip code."
+    },
+    {
+        "question": "Mapping Cardinality Constraints",
+        "answer": "Mapping cardinality constraints in the ER model specify the number of relationship instances in which an entity can participate. Common types include one-to-one, one-to-many, and many-to-many."
+    },
+    {
+        "question": "One-to-Many Relationship",
+        "answer": "A one-to-many relationship in the ER model means that an entity in one set can have relationships with multiple entities in another set, but not vice versa."
+    },
+    {
+        "question": "Many-to-One Relationships",
+        "answer": "A many-to-one relationship is the inverse of a one-to-many relationship. An entity in one set can be associated with only one entity in another set."
+    },
+    {
+        "question": "Many-to-Many Relationship",
+        "answer": "In a many-to-many relationship, entities in one set can have relationships with multiple entities in another set, and vice versa."
+    },
+    {
+        "question": "Transactions",
+        "answer": "Transactions in a database are a sequence of operations performed as a single logical unit of work. A transaction must be atomic, consistent, isolated, and durable (ACID properties)."
+    },
+    {
+        "question": "atomic, consistent, isolated, and durable",
+        "answer": "Atomicity ensures that all operations within a transaction are completed or none are. Consistency ensures the database remains in a consistent state before and after the transaction. Isolation ensures transactions are executed in isolation from each other. Durability ensures that once a transaction is committed, it remains so, even in the event of system failures."
+    },
+    {
+        "question": "Demo Transactions",
+        "answer": "Demo transactions are example transactions used for demonstration or testing purposes, showing how database transactions work, including their ACID properties."
+    },
+    {
+        "question": "Flask",
+        "answer": "Flask in the context of databases often refers to using the Flask web framework (a Python framework) to build web applications that interact with databases."
+    },
+    {
+        "question": "PostgreSQL",
+        "answer": "PostgreSQL is an open-source object-relational database management system known for its robustness, scalability, and support for advanced data types and SQL standards."
+    },
+    {
+        "question": "Integrity Constraints",
+        "answer": "Integrity constraints in a database ensure the accuracy and consistency of the data. Examples include primary keys, foreign keys, unique constraints, and check constraints."
+    },
+    {
+        "question": "Constraints on a Single Relation",
+        "answer": "Constraints on a single relation (or table) in a database enforce rules on the data within that table, like primary keys (uniqueness and non-null), check constraints (conditional rules), and unique constraints (uniqueness for a set of columns)."
+    },
+    {
+        "question": "The check clause",
+        "answer": "The CHECK clause in SQL is used to limit the value range that can be placed in a column. It ensures that all values in a column satisfy a specific condition."
+    },
+    {
+        "question": "Referential Integrity",
+        "answer": "Referential integrity in a database ensures that relationships between tables remain consistent. For example, foreign keys in one table must correspond to primary keys in another."
+    },
+    {
+        "question": "Foreign Key",
+        "answer": "A foreign key is a set of one or more columns in a database table that refers to the primary key in another table. It’s used to ensure referential integrity."
+    },
+    {
+        "question": "Commonly Used PostgreSQL Data Types",
+        "answer": "Commonly used PostgreSQL data types include INTEGER, VARCHAR, TEXT, BOOLEAN, DATE, TIMESTAMP, and ARRAY."
+    },
+    {
+        "question": "Primary Keys",
+        "answer": "Primary keys in a database are unique identifiers for each record in a table. They ensure that each record can be uniquely identified."
+    },
+    {
+        "question": "Design Phases",
+        "answer": "Design phases in database development typically include requirements analysis, conceptual design, logical design, schema refinement, physical design, and application and security design."
+    },
+    {
+        "question": "Design Alternatives",
+        "answer": "Design alternatives in database design refer to different ways to structure and organize data, considering factors like normalization, denormalization, indexing, and partitioning."
+    },
+    {
+        "question": "ER model -- Database Modeling",
+        "answer": "The Entity-Relationship (ER) model is a conceptual tool used in database modeling to describe the data and the relationships between data entities in an abstract way."
+    },
+    {
+        "question": "Entity Sets",
+        "answer": "Entity sets in the ER model represent a group of similar entities, such as customers, products, or orders, and are used to model real-world entities in a database."
+    },
+    {
+        "question": "Relationship Sets",
+        "answer": "Relationship sets in the ER model represent associations between two or more entity sets. These relationships can have attributes and vary in degree (binary, ternary, etc.)."
+    },
+    {
+        "question": "Representing Relationship Sets via ER Diagrams",
+        "answer": "ER diagrams represent relationship sets by connecting entity sets with lines, showing how entities are related. Attributes of relationships are also shown."
+    },
+    {
+        "question": "Roles",
+        "answer": "Roles in ER diagrams clarify the meaning of relationships by assigning roles to the entities in a relationship, especially in recursive relationships."
+    },
+    {
+        "question": "Non-binary Relationship Sets",
+        "answer": "Non-binary relationship sets in the ER model involve more than two entity sets. An example is a ternary relationship involving three entities."
+    },
+    {
+        "question": "Complex Attributes",
+        "answer": "Complex attributes in the ER model are attributes that have nested attributes, representing a hierarchy of attributes. Examples include composite and multi-valued attributes."
+    },
+    {
+        "question": "Composite Attributes",
+        "answer": "Composite attributes in the ER model can be divided into smaller parts, which are also attributes, like an address attribute that includes street, city, and zip code."
+    },
+    {
+        "question": "Mapping Cardinality Constraints",
+        "answer": "Mapping cardinality constraints in the ER model specify the number of relationship instances in which an entity can participate. Common types include one-to-one, one-to-many, and many-to-many."
+    },
+    {
+        "question": "One-to-Many Relationship",
+        "answer": "A one-to-many relationship in the ER model means that an entity in one set can have relationships with multiple entities in another set, but not vice versa."
+    },
+    {
+        "question": "Many-to-One Relationships",
+        "answer": "A many-to-one relationship is the inverse of a one-to-many relationship. An entity in one set can be associated with only one entity in another set."
+    },
+    {
+        "question": "Many-to-Many Relationship",
+        "answer": "In a many-to-many relationship, entities in one set can have relationships with multiple entities in another set, and vice versa."
+    },
+    {
+        "question": "What is the course title for CSCI 3700 and SENG 3700?",
+        "answer": "The course title is 'Database Management System'."
+    },
+    {
+        "question": "How many credit hours does the course offer, and what are the contact hours?",
+        "answer": "The course offers 3 credit hours and has 3 contact hours."
+    },
+    {
+        "question": "What is the term for this course?",
+        "answer": "The term for this course is Fall 2023."
+    },
+    {
+        "question": "What are the prerequisites for this course?",
+        "answer": "The prerequisites for this course are CSCI 2540 - Data Abstraction and Object-Oriented Data Structures."
+    },
+    {
+        "question": "Are there any co-requisites for this course?",
+        "answer": "There are no co-requisites for this course."
+    },
+    {
+        "question": "Where and when does CSCI 3700 Section 1 take place?",
+        "answer": "CSCI 3700 Section 1 takes place at Howell Science Complex 0N106 every T/TH 9:30 - 10:45 am."
+    },
+    {
+        "question": "Where and when do CSCI 3700 Section 2 and SENG 3700 take place?",
+        "answer": "CSCI 3700 Section 2 and SENG 3700 take place at Rivers Building 00226 every T/TH 12:30 - 01:45 pm."
+    },
+    {
+        "question": "When is the Midterm Period for this course?",
+        "answer": "The Midterm Period is TBD."
+    },
+    {
+        "question": "When is the Final Exam Period, and where can you find the official schedule?",
+        "answer": "The Final Exam Period is available on the ECU official calendar and will be posted on Canvas."
+    },
+    {
+        "question": "Who is the instructor for this course, and what are the instructor's office hours?",
+        "answer": "The instructor is Rui Wu. Office hours are Mon/Wed: 10:30 am-12:30 pm; Fri: 10:30 am-11:30 pm (by appointment)."
+    },
+    {
+        "question": "What is the email address of the instructor, and is there a course website?",
+        "answer": "The email address is wur18@ecu.edu, and the course website is http://www.cs.ecu.edu/wu/."
+    },
+    {
+        "question": "What is the course summary, and what topics are covered?",
+        "answer": "The course focuses on relational database systems theory and development. Topics include the relational data model, integrity constraints specification, data modeling, relational schema design, normalization, relational algebra, SQL, and database programming."
+    },
+    {
+        "question": "What textbook is recommended for this course, and are there any additional materials?",
+        "answer": "The recommended textbook is 'Database System Concepts (7th Edition)' by Abraham Silberschatz, Henry F. Korth, and S. Sudarshan. Additional materials may be shared on Canvas."
+    },
+    {
+        "question": "How is the grading policy structured for undergraduate students?",
+        "answer": "Assignments contribute 33.3%, Midterm Exam 33.3%, and Final Exam 33.3%. Grading scale: A=94-100, A-=90-93, B+=87-89, B=83-86, B-=80-82, C+=77-79, C=73-76, C-=70-72, D+=67-69, D=63-66, D-=60-62, F=59 or below."
+    },
+    {
+        "question": "What is the absence policy for face-to-face classes, and how is it linked to points?",
+        "answer": "Students should expect and plan to attend classes. Missing N classes without reason results in 2^N points off the midterm. Emergencies should be communicated."
+    },
+    {
+        "question": "What is the policy on late work, and how should assignments be submitted?",
+        "answer": "Late work is not accepted. All assignments must be submitted on time. It is the student's responsibility to verify due dates and times on the course website."
+    },
+    {
+        "question": "What is the university's policy on plagiarism?",
+        "answer": "Students are expected to abide by the university's Student Honor Code. Outright copying is plagiarism and is unacceptable."
+    },
+    {
+        "question": "What sources can be used for obtaining information in the event of a weather emergency?",
+        "answer": "In the event of a weather emergency, information about ECU can be obtained through the ECU Emergency Notices (http://www.ecu.edu/alert) and ECU Emergency Information Hotline (252-328-0062)."
+    },
+    {
+        "question": "How should students with disabilities request accommodations?",
+        "answer": "Students with disabilities should go to the Department for Disability Support Services, located in Slay 138, to verify the disability before any accommodations can occur. The telephone number is 252-737-1016."
+    },
+    {
+        "question": "What are the details and due dates for assignments listed in the course summary?",
+        "answer": "Refer to the course summary for specific details and due dates for each assignment, including Assignment Homework 0 (Part 1), Assignment HW0 Part 2, Assignment HW0 Part 3, Assignment HW1, Assignment HW2, Assignment HW3, Assignment HW4, and Assignment HW5. Additionally, there are quizzes for the Final Exam, Midterm Exam, Test Exam, and an extra credit assignment."
+    }
+]
